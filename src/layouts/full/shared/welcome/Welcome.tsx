@@ -10,7 +10,7 @@ const Welcome = () => {
     setOpen(true);
   };
 
-  const handleClose = (reason) => {
+  const handleClose = (reason: any) => {
     if (reason === 'clickaway') {
       return;
     }
