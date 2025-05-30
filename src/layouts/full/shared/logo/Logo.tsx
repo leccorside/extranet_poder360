@@ -1,22 +1,15 @@
 import { FC, useContext } from 'react';
-
 import { Link } from 'react-router';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import { ReactComponent as LogoDark } from 'src/assets/images/logos/dark-logo.svg';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import { ReactComponent as LogoDarkRTL } from 'src/assets/images/logos/dark-rtl-logo.svg';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import { ReactComponent as LogoLight } from 'src/assets/images/logos/light-logo.svg';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import { ReactComponent as LogoLightRTL } from 'src/assets/images/logos/light-logo-rtl.svg';
 import { styled } from '@mui/material';
+
 import config from 'src/context/config';
 import { CustomizerContext } from 'src/context/CustomizerContext';
 
+// Importe imagens .png normalmente
+import logoDark from 'src/assets/images/logos/logo-azul.png';
+import logoDarkRTL from 'src/assets/images/logos/logo-branca.png';
+import logoLight from 'src/assets/images/logos/logo-branca.png';
+import logoLightRTL from 'src/assets/images/logos/logo-azul.png';
 
 const Logo: FC = () => {
   const { isCollapse, isSidebarHover, activeDir, activeMode } = useContext(CustomizerContext);
@@ -24,36 +17,28 @@ const Logo: FC = () => {
 
   const LinkStyled = styled(Link)(() => ({
     height: TopbarHeight,
-    width: isCollapse == "mini-sidebar" && !isSidebarHover ? '40px' : '180px',
+    width: isCollapse === 'mini-sidebar' && !isSidebarHover ? '40px' : '180px',
     overflow: 'hidden',
     display: 'block',
   }));
 
-  if (activeDir === 'ltr') {
-    return (
-      <LinkStyled to="/" style={{
-        display: 'flex',
-        alignItems: 'center',
-      }}>
-        {activeMode === 'dark' ? (
-          <LogoLight />
-        ) : (
-          <LogoDark />
-        )}
-      </LinkStyled>
-    );
-  }
+  const getLogoSrc = () => {
+    if (activeDir === 'ltr') {
+      return activeMode === 'dark' ? logoLight : logoDark;
+    } else {
+      return activeMode === 'dark' ? logoDarkRTL : logoLightRTL;
+    }
+  };
 
   return (
-    <LinkStyled to="/" style={{
-      display: 'flex',
-      alignItems: 'center',
-    }}>
-      {activeMode === 'dark' ? (
-        <LogoDarkRTL />
-      ) : (
-        <LogoLightRTL />
-      )}
+    <LinkStyled
+      to="/"
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+      }}
+    >
+      <img src={getLogoSrc()} alt="Logo" style={{ width: '100%' }} />
     </LinkStyled>
   );
 };
