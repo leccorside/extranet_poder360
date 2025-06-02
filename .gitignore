@@ -6,10 +6,18 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-package-lock.json
 
+package-lock.json
 node_modules
-dist
+
+backend/package-lock.json
+backend/node_modules
+backend/dist
+
+frontend/package-lock.json
+frontend/node_modules
+frontend/dist
+
 dist-ssr
 *.local
 
