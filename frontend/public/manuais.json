@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "titulo": "Manual de TypeScript 1",
+    "data": "2025-06-01",
+    "descricao": "Guia completo sobre React e seus principais conceitos.",
+    "link": "https://example.com/manual-react",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Manual de TypeScript 2",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Manual de TypeScript 3",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Manual de TypeScript 4",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Manual de TypeScript 5",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Manual de TypeScript 6",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Manual de TypeScript 7",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "Manual de TypeScript 8",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "Manual de TypeScript 9",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "Manual de TypeScript 10",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "Manual de TypeScript 11",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 12,
+    "titulo": "Manual de TypeScript 12",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 13,
+    "titulo": "Manual de TypeScript 13",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 14,
+    "titulo": "Manual de TypeScript 14",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 15,
+    "titulo": "Manual de TypeScript 15",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 16,
+    "titulo": "Manual de TypeScript 16",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 17,
+    "titulo": "Manual de TypeScript 17",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 18,
+    "titulo": "Manual de TypeScript 18",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  },
+  {
+    "id": 19,
+    "titulo": "Manual de TypeScript 19",
+    "data": "2025-05-20",
+    "descricao": "Aprenda a utilizar TypeScript em projetos modernos.",
+    "link": "https://example.com/manual-typescript",
+    "imagem": "https://dpcpa.com/app/uploads/2015/01/thumbnail-default.jpg"
+  }
+]
