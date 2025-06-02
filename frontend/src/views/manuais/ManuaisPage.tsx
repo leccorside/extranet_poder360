@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Grid, Pagination } from '@mui/material';
+import { Grid, Pagination, Stack } from '@mui/material';
 import Breadcrumb from 'src/layouts/full/shared/breadcrumb/Breadcrumb';
 import PageContainer from 'src/components/container/PageContainer';
-import DashboardCard from 'src/components/shared/DashboardCard';
 import ManuaisCard from 'src/components/manuais/ManuaisCard';
 
 const BCrumb = [{ to: '/', title: 'Home' }, { title: 'Manuais' }];
@@ -53,15 +52,15 @@ const ManuaisPage: React.FC = () => {
       </Grid>
 
       {/* Paginação */}
-      <Pagination
-        count={totalPaginas}
-        page={paginaAtual}
-        onChange={handleChangePagina}
-        color="primary"
-        variant="outlined"
-        shape="rounded"
-        sx={{ marginTop: '20px', display: 'flex', justifyContent: 'center' }}
-      />
+      <Stack alignItems="center" mt={3}>
+        <Pagination
+          count={totalPaginas}
+          page={paginaAtual}
+          onChange={handleChangePagina}
+          color="primary"
+          size="small"
+        />
+      </Stack>
     </PageContainer>
   );
 };

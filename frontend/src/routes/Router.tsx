@@ -5,6 +5,7 @@ import { createBrowserRouter, Navigate } from 'react-router';
 import Loadable from '../layouts/full/shared/loadable/Loadable';
 import ManuaisPage from 'src/views/manuais/ManuaisPage';
 import ManualDetalhes from 'src/views/manuais/ManualDetalhes';
+import EquipamentosPage from 'src/views/equipamentos/EquipamentosPage';
 
 /* ***Layouts**** */
 const FullLayout = Loadable(lazy(() => import('../layouts/full/FullLayout')));
@@ -26,6 +27,7 @@ const Router = [
       { path: '/dashboard', exact: true, element: <Dashboard /> },
       { path: '/manuais', exact: true, element: <ManuaisPage /> },
       { path: '/manuais/:id', exact: true, element: <ManualDetalhes /> },
+      { path: '/equipamentos/', exact: true, element: <EquipamentosPage /> },
       { path: '*', element: <Navigate to="/auth/404" /> },
     ],
   },

@@ -65,7 +65,7 @@ const Menuitems: MenuitemsType[] = [
         id: uniqueId(),
         title: 'Listar  Equipamentos',
         icon: IconPoint,
-        href: '/equipamentos/equipamentos/',
+        href: '/equipamentos/',
       },
     ],
   },
